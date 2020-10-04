@@ -38,12 +38,12 @@ footer{height: 7vh; }
   background: white;
   margin-right: 70px;
   margin-left: 70px;
-  ;
+  border: solid 1px black;
 }
 
 @keyframes animation{
   0% {background-image: url(chukar-0221.jpg);}
-  25% {background-image: url(hungarian-partridge.jpg);}
+  50% {background-image: url(hungarian-partridge.jpg);}
   50% {background-image: url(Pheasant.jpg);}
   100% {background-image: url(quail.jpg);}
 }
