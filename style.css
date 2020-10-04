@@ -1,0 +1,52 @@
+body { min-height: 100vh; display: flex; flex-direction: column; }
+header{ } 
+main{flex-grow: 1;} 
+footer{height: 7vh; }
+
+.bg-image {
+  background-image: url(chukar-0221.jpg);
+  height:50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-name: animation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  
+}
+
+@media only screen and (max-width: 768px){
+  .bg-image {
+    background-image: url(chukar-0221.jpg);
+    height:35vh;
+    background-repeat: no-repeat;
+    background-size: cover;  
+  }
+}
+
+.custom-font{
+  font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (min-width: 768px){
+  .pos-abs {
+    position: absolute;
+    margin-top: 90px;
+  }  
+}
+
+.card-white {
+  background: white;
+  margin-right: 70px;
+  margin-left: 70px;
+  ;
+}
+
+@keyframes animation{
+  0% {background-image: url(chukar-0221.jpg);}
+  25% {background-image: url(hungarian-partridge.jpg);}
+  50% {background-image: url(Pheasant.jpg);}
+  100% {background-image: url(quail.jpg);}
+}
+
+
+
