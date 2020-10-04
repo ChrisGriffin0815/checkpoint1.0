@@ -37,7 +37,8 @@ footer{height: 7vh; }
   background: white;
   margin-right: 70px;
   margin-left: 70px;
-  border: solid 1px black;
+  border: black 2px solid;
+  box-shadow: black 5px 5px;
 }
 
 @keyframes animation{
